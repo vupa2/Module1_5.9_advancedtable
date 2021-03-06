@@ -45,6 +45,10 @@
   color: #f3f3f3;
 }
 
+#bai2 thead tr:last-child th {
+  font-weight: normal;
+}
+
 #bai2 thead tr:first-child th:first-child {
   background-color: #FF2600;
 }
@@ -66,9 +70,11 @@
 }
 
 #bai2 tbody td {
-  border: 2px inset #B6B6B6;
+  border: 2px solid #B6B6B6;
+  font-weight: bold;
 }
 
 #bai2 tbody td sub {
   color: #000000;
+  font-weight: normal;
 }
