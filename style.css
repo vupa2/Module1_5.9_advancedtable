@@ -25,11 +25,21 @@
 /* Bai 2 */
 #bai2 {
   margin: auto;
+  border-collapse: collapse;
 }
 
-#bai2 h2 {
+#bai2 caption {
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
   color: #1841FF;
+  margin: 15px;
+}
+
+#bai2 th, #bai2 td {
+  width: 60px;
+  height: 30px;
+  text-align: center;
 }
 
 #bai2 thead tr:first-child {
@@ -48,10 +58,18 @@
   background-color: #FFB300;
 }
 
-#bai2 thead tr:nth-child(2) th:first-child {
+#bai2 thead tr:nth-child(2) th:first-child, #bai2 tbody tr td:first-child  {
   color: #FF2600;
 }
 
-#bai2 thead tr:nth-child(2) th:last-child {
+#bai2 thead tr:nth-child(2) th:last-child, #bai2 tbody tr td:last-child {
   color: #0433FF;
+}
+
+#bai2 tbody td {
+  border: 2px inset #B6B6B6;
+}
+
+#bai2 tbody td sub {
+  color: #000000;
 }
